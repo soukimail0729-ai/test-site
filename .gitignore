@@ -1,0 +1,17 @@
+# Binaries / tools
+/github
+/tools/
+*.exe
+*.zip
+gh.exe
+
+# Local preview / test artifacts
+*.log
+_pages_body.json
+__pycache__/
+.cpython-*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
