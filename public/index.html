@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="TestSite — テスト用ランディング。AI/テック系のサンプルサイト。" />
+  <title>TestPilot — テスト用サイト</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header__inner">
+      <a class="brand" href="#"><span class="brand__mark">▲▲</span> TestPilot</a>
+      <nav class="nav__links">
+        <a href="#features">機能</a>
+        <a href="#about">テスト内容</a>
+        <a href="#contact">お問い合わせ</a>
+      </nav>
+      <a class="btn btn--primary btn--sm" href="#signup">デモ開始</a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero__inner">
+      <p class="eyebrow">AI Test Portal v0.1.0</p>
+      <h1>あなたの仕事を、<span class="gradient">早く・正確に</span>。</h1>
+      <p>テスト用ランディング。AI/テック系のサンプルサイト。公開パイプライン確認用。</p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#features">機能を見る</a>
+        <a class="btn btn--ghost" href="#about">テスト内容</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section__head">
+        <h2>Quick Test Features</h2>
+        <p>テスト用サイトなので、まずは見た目と挙動を確認する。</p>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <div class="card__icon">⚡</div>
+          <h3>Fast</h3>
+          <p>ローカル検証を想定した軽量な静的サイト。</p>
+        </li>
+        <article class="card">
+          <div class="card__icon">📦</div>
+          <h3>Ready</h3>
+          <p>HTML/CSS/JS のみ。公開パイプラインに載せやすい構成。</p>
+        </article>
+        <article class="card">
+          <div class="card__icon">🚀</div>
+          <h3>Deployable</h3>
+          <p>GitHub Pages / Vercel / Cloudflare へ公開可能。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about__inner">
+        <div class="about__body">
+          <h2>About This Test Site</h2>
+          <p>
+            このサイトは、<span class="highlight">テスト用</span>のランディングページです。
+            公開パイプライン（GitHub Pages / Vercel / Cloudflare）の動作確認を目的としています。
+          </p>
+          <p>
+            公開までのフローは次の通りです。<br />
+            <strong>作る → コミット → デプロイ → ブラウザで確認</strong>。
+          </p>
+        </div>
+        <div class="about__preview">
+          <pre class="terminal"><code>echo "Hello, TestSite"
+> 公開中...
+
+site URL: https://<USER>.github.io/<repo>/
+status  : live (status 200)</code></pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="contact">
+    <div class="container footer__inner">
+      <p class="footer__brand">TestPilot</p>
+      <p class="footer__text">Test site · v0.1.0 · Built by AI Agent</p>
+      <p class="footer__text">質問や修正依頼は、<a href="#contact">こちら</a>から。</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
