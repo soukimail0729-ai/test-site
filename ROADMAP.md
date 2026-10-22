@@ -10,15 +10,14 @@
 - 技術：静的サイト（HTML + CSS + JS）
 - 公開先候補：GitHub Pages / Vercel / Cloudflare Pages（クレデンシャル確認後）
 
-### 2. 実装（進行中）
-- `index.html` — ページ構造
+### 2. 実装（完了）
+- `index.html` — ページ構造（UTF-8 / ダークテーマ）
 - `css/style.css` — デザイン（ダークテーマ・グラデーション）
 - `js/app.js` — インタラクション（スクロール系など）
 
-### 3. 公開（公開先を選定）
-- GitHub Pages（推奨：無料・静的・自動）
-- または Vercel / Cloudflare Pages（クレデンシャル必要）
-- 必要に応じて `gh` CLI を使ってリポジトリ作成＆デプロイ
+### 3. 公開（GitHub Pages）✅ 完了
+- `gh` 認証 → リポジトリ作成 → push → Pages 有効化まで完了
+- 公開URL: https://soukimail0729-ai.github.io/test-site/
 
 ### 4. 検証
 - ローカルプレビュー（`python -m http.server` など）
@@ -27,7 +26,15 @@
 
 ---
 
+## 完了状態
+- ✅ サイト作成: index.html / css/style.css / js/app.js（ルート直下）
+- ✅ リポジトリ: https://github.com/soukimail0729-ai/test-site
+- ✅ GitHub Pages 有効化済み
+- ✅ 公開URL: https://soukimail0729-ai.github.io/test-site/
+- 🔄 自動デプロイ: `main` への push で GitHub Actions が自動デプロイ（deploy.yml）
+
 ## 次のアクション
-1. `index.html` / `style.css` / `app.js` を作成
-2. ローカルサーバーで確認
-3. 公開先を確定してデプロイ
+1. （完了済み）サイト作成
+2. （完了済み）ローカル確認
+3. （完了済み）公開（GitHub Pages）
+4. （完了）公開URL確認（アクセステスト済み）
